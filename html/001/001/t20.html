@@ -1,0 +1,66 @@
+<!DOCTYPE html><html><head><title>TouchGAL-一站式Galgame文化社区！_牛头人游戏</title><meta charset="utf-8"><meta name="renderer" content="webkit"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="applicable-device" content="pc,mobile"><meta name="author" content="zongcaiduanju"><meta name="description" content=""><meta name="keywords" content=""><link rel="icon" href="/static/git/default/favicon.ico"><link rel="apple-touch-icon" href="/static/git/default/logo.png"><style>
+html {color: #333333;background: #ffffff;scroll-behavior: smooth;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;-moz-text-size-adjust: 100%;text-size-adjust: 100%;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;font-family: 'Cascadia Code', Consolas, Helvetica, 'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', sans-serif;overflow-y: auto;font-size: 16px;}
+html[transition] {transition: all 500ms ease;}
+body {max-width: 680px;padding: 0 14px;margin: 0 auto;}
+* {-webkit-tap-highlight-color: transparent;}
+ol, ul {list-style: none;}
+p, h1, h2, h3, h4, h5, ul, ol, li, blockquote {padding: 0;margin: 0;}
+a {color: inherit;text-decoration: none;}
+input, select, textarea {font-family: inherit;outline: 0;-webkit-appearance: none;-moz-appearance: none;appearance: none;border: none;}
+pre, code {font-family: inherit;}
+input:-webkit-autofill {-webkit-text-fill-color: #333333 !important;-webkit-transition: background-color 2592000s ease-in-out 0s;transition: background-color 2592000s ease-in-out 0s;}
+::-webkit-scrollbar {width: 5px;height: 5px;background-color: transparent;}
+::-webkit-scrollbar-thumb {border-radius: 2px;background-color: #999999;}
+::selection {background-color: #4a4a4a;color: #f9f9f9;}
+.hide {display: none !important;}
+
+.zongcaiduanju-h {padding: 40px 0;display: flex;align-items: center;justify-content: space-between;}
+.zongcaiduanju-h .logo {flex-shrink: 0;width: 40px;height: 40px;border-radius: 50%;margin-right: 10px;-webkit-user-drag: none;box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.18);background-image: url("/static/git/default/logo.jpg");background-size: cover;}
+.zongcaiduanju-h .zongcaiduanju-m {margin-right: -9px;text-align: right;user-select: none;}
+.zongcaiduanju-h .zongcaiduanju-m a {display: inline-block;font-size: 16px;margin: 4px 9px;white-space: nowrap;user-select: auto;}
+.zongcaiduanju-f {padding: 15px 0;font-size: 14px;}
+.zongcaiduanju-f a {text-decoration: underline;color: #000000;padding: 0 4px;white-space: nowrap;}
+.zongcaiduanju-f-btn {position: fixed;z-index: 99;width: 32px;height: 32px;cursor: pointer;background-color: rgba(0, 0, 0, 0.4);border-radius: 2px;display: flex;align-items: center;justify-content: center;font-size: 0;}
+.zongcaiduanju-f-btn i {font-size: 22px;background-color: #ffffff;}
+
+.zongcaiduanju{font-size: 16px;line-height: 1.7;}
+.zongcaiduanju h1{font-size:22px;line-height:2.4; margin: 10px 0;padding: 0;color: #222;font-weight:bold;}
+.zongcaiduanju  h2,.zongcaiduanju  h3{font-size:16px;line-height:1.8; font-weight:bold;margin:0 0 10px 0;padding: 0}
+.zongcaiduanju  h2{font-size:18px;border-bottom:1px solid #eee;line-height:2.0;border-left:4px solid #999;padding-left:6px;}
+.zongcaiduanju p{margin:0 0 10px 0;line-height:1.6;}
+.zongcaiduanju a{color:#0267FF;}
+.zongcaiduanju a:hover{text-decoration: underline;}
+.zongcaiduanju img{max-width: 100%;}
+.zongcaiduanju ul,.zongcaiduanju ol {padding-left: 0;margin-bottom:10px;}
+.zongcaiduanju ul li,.zongcaiduanju ol li {list-style-type: none;position: relative;}
+.zongcaiduanju ul li{padding-left: 12px; }
+.zongcaiduanju ul li::before {content: "•"; font-weight: bold;position: absolute;left: 0;width: 12px;}
+.zongcaiduanju ol {counter-reset: list-counter;}
+.zongcaiduanju ol li{padding-left: 18px; }
+.zongcaiduanju ol li::before {content: counter(list-counter) ". ";counter-increment: list-counter;font-weight: bold;position: absolute;left: 0;width: 18px; }
+.zongcaiduanju ul li p,.zongcaiduanju ol li p {margin-left: 0; }
+.zongcaiduanju blockquote{border-left:5px solid #0969da;border-radius:10px;padding:5px 10px;margin: 0;}
+.zongcaiduanju-l{line-height:1.8}
+.zongcaiduanju-l li{white-space: nowrap;overflow: hidden}
+.zongcaiduanju-l li span{display: inline-block;}
+
+ .main {position: relative;}
+ .box {background-color: #fff;padding: 20px;border: 1px solid #ccc;box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);}
+ .box-over {position: fixed;top: 0;left: 0;width: 100%;height: 100%;background-color: rgba(255, 255, 255, 1); z-index: 999; display: flex;justify-content: center;align-items: center;}
+ .box-content {position: fixed;top: 50%;left: 50%;transform: translate(-50%, -50%);z-index: 1000; background-color: #fff;box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);}
+.pre-next .pre,.pre-next .next{margin-bottom:10px;}
+@media screen and (max-width: 560px) {
+    .zongcaiduanju-h {padding: 35px 0 20px 0;justify-content: flex-start;}
+    .zongcaiduanju-h .zongcaiduanju-m {margin-right: -2px;text-align: left;}
+    .zongcaiduanju-h .zongcaiduanju-m a {margin: 2px 5px;font-size: 15px;}
+}
+</style></head><body><div class="zongcaiduanju-h"><a href="/" class="logo"></a><nav class="zongcaiduanju-m"></nav></div><div class="main"><div class="zongcaiduanju"><h1>TouchGAL-一站式Galgame文化社区！</h1><div class="zongcaiduanju-a" id="zongcaiduanju-a-01"></div>在不可知的未来面前，每一段GalGame的旅程都是一场充满惊喜的邂逅；如同拥有“视透”命运的能力，我们总能在那看似既定的剧本中，发现独一无二的感动与深刻。TouchGAL社区，正是怀着这样一份纯粹的热爱与信念，为广大GalGame爱好者精心打造的一座文化家园——我们立足于分享快乐，致力于成为您探索无尽剧情的一站式港湾。
+<p>网站资源库在线下载地址:  <a href="https://www.ntrku.com" target="_bank">             https://www.ntrku.com</a></p>
+TouchGAL，为Gal而生。我们深知，每一部作品不仅是视觉与听觉的盛宴，更是灵魂与情感的共鸣。因此，我们坚持提供高质量、免费共享的资源内容，从经典长篇到小众佳作，从完整汉化到优质攻略，竭力让每一位玩家无障碍地沉浸于精彩纷呈的Gal世界。无论是初涉此道的新朋友，还是资历深厚的忠实爱好者，都能在这里找到属于自己的心灵栖息地。
+
+但这不仅仅是一个资源站，更是一个有温度的文化社区。我们鼓励交流与共鸣，欢迎每一位同好分享感想、创作心得、或是记录那些被剧情触动的美好瞬间。TouchGAL愿作一片净土，让热爱不被喧嚣打扰，让真诚的讨论与推荐成为连接你我的桥梁。
+
+我们相信，GalGame是世界的延伸，是情感与艺术的凝结。而TouchGAL的使命，正是守护这份纯粹，陪伴您共同走过每一个或甜蜜、或催泪、或令人回味无穷的故事章节。不可知的，是未来您将与怎样的角色相遇；可预见的，是这里永远有一群志同道合的伙伴，与您一起笑着、感动着、热爱着。
+
+TouchGAL——为Gal爱好者而生，期待与您在此相遇，共同编织下一个心动回忆。<div class="zongcaiduanju-a" id="zongcaiduanju-a-02"></div><div class="pre-next"><div class="pre">上一篇：<a href="/html/001/001/t19.html">Galgame游戏、二次元游戏下载网站大全 - ACG导航网</a></div><div class="next">下一篇：<a href="/html/001/001/t21.html">ACG资源网 - 带你探索不一样的世界</a></div></div></div></div><div class="zongcaiduanju-f"><span>Copyright © 2021-2025牛头人游戏</span></div><script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+<script>LA.init({id:"3KmfdDUZZTsqAsZT",ck:"3KmfdDUZZTsqAsZT"})</script></body></html>
